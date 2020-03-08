@@ -1,6 +1,6 @@
 # action.yml
-name: 'Hello World'
-description: 'Greet someone and record the time'
+name: 'Build Image, Push to GCR, Update GKE Deployment'
+description: 'Build Docker Image'
 inputs:
   who-to-greet:  # id of input
     description: 'Who to greet'
